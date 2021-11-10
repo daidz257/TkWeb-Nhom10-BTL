@@ -1,5 +1,5 @@
 # TkWeb-Nhom10-BTL
-Đề tài: Quản lý bán sách<br><br>
+Đề tài: Quản lý bán sách
 Mô tả chức năng:
 1. Sản phẩm: cung cấp thông tin sản phẩm, giá sản phẩm, nguồn gốc xuất xứ, thể loại<br>
 2. Đăng nhập/đăng kí: giúp cửa hàng thu thập được thông tin khách hàng đã đăng kí trang<br>
