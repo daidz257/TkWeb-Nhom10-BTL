@@ -1,0 +1,265 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   min-width: 200px;
+   max-width: 100%;
+}
+/* Header */
+
+header{
+   background-color: #539e46;
+   height: 120px;
+}
+.header-navbar{
+   margin-right: 40px;
+   margin-bottom: 10px;
+}
+.header-navbar-ul a{
+   color: #ffffff;
+}
+.header-navbar-ul a:hover{
+   color: rgb(221, 208, 208);
+}
+.header-logo-1{  
+   font-family: Brush Script MT;
+   font-size: 60px !important;
+   position: relative;
+   top: -10px;
+   color: #ffffff;
+   margin-left: 30px;
+   color: #ffffff;
+   animation: doimau 2s infinite; 
+}
+@keyframes doimau{
+   form{
+       color: #ffffff;
+   }
+   to{
+       color: rgb(24, 22, 22);
+   }
+}
+/* nav search */
+.header-with-search{
+   height: 50px;
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+.header-search{
+   flex: 1;
+   height: 40px;
+   background-color: #ffffff;
+   margin: 0px 40px 0px 30px;
+}
+.header-search-input{
+  padding: 10px 10px 5px 10px;
+  width: 100%;   
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.header-cart{
+   width: 200px;
+   text-align: center;
+}
+.header-cart-icon{
+   font-size: 30px;
+   color: #ffffff;
+   padding-right: 5px;
+}
+.header-cart a{
+   color: #ffffff;
+   font-size: 15px;
+}
+.header-cart a:hover{
+   color: rgb(221, 208, 208);
+}
+.header-search-button{
+   position: relative;
+   top: -37px;
+   right: 4px;
+   float: right;
+   width:70px;
+   height: 34px;
+   cursor: pointer;
+}
+/* them nav mobile*/
+.header-an{
+   margin-top: 5px;
+   font-size: 30px;
+   color: #ffffff;
+   display: none;
+}
+ @media only screen and (max-width: 700px) {
+   header{
+      width: 100%;
+      height: 80px;
+   }
+   .header-navbar-ul a{
+      display: none;
+   }
+   .header-logo{
+     position: relative;
+     top: -50px; 
+     width: 20px;
+   }
+   .header-search {
+      display: none;
+   }
+   .header-cart{
+      display: none;
+   }
+   .header-an{
+      font-size: 35px;
+      color: #ffffff;
+      display: block;
+      margin-left: 90%;
+      position: relative;
+      top: 5px;
+   }
+   body{
+      padding: 0px 10px;
+   } 
+}
+.header-logo-2{
+   font-family: Brush Script MT;
+   display: none;
+   font-size: 40px;
+   color: #ffffff;
+   animation: doimau 2s infinite;
+   margin-left: 10px;
+}
+/* start nav */
+.header-navbar-mobile{
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   width: 250px;
+   max-width: 100%;
+   background-color: #eedede;
+   display: block;
+   transform: translateY(-100%);
+   left: 64%;
+  
+}
+.header-navbar-list{
+   margin-top: 30px;
+   list-style: none;
+   margin-left: 10px; 
+}
+.header-navbar-list-1{
+   display: block;
+   padding-top: 20px;
+   text-decoration: none;
+   color: #1a1818;
+   padding: 8px 0;
+   font-size: 20px;
+}
+.header-navbar-list-2{
+   font-size: 23px;
+   margin-left: 10px;
+   position: relative;
+   top: -10px;
+   cursor: pointer;
+}
+.nav-input{
+   display: none;
+}
+.nav-input:checked ~ .nav-overlay{
+   display: block;
+  
+}
+.nav-input:checked ~ .header-navbar-mobile{
+   transform: translateY(0%);
+}
+@media only screen and (min-width: 700px) {
+   .header-navbar-mobile{
+      display: none;
+   } 
+}
+
+@media only screen and (max-width: 375px){
+   .header-logo-1{
+      display: none;
+   }
+   .header-logo-2{
+      display: block;
+   }
+   .header-navbar-list-1{
+      font-size: 15px;
+   }
+   .header-navbar-list-2{
+      font-size: 17px;
+   }
+}
+
+
+
+/* footer */
+.footer{
+   background-color: rgb(238, 214, 214);
+}
+.footer-icon i{
+  font-size: 40px;
+  padding: 20px 40px 20px 40px;
+}
+.fa-facebook{
+   color: #4c69a1;
+}
+.fa-instagram{
+   color: #c73c72;
+}
+.fa-twitter{
+   color: #1da1f2;
+}
+.fa-google-plus-g{
+   color: #ff0000;
+}
+.fa-youtube{
+   color: #ff0000;
+}
+.footer-1 ul li{
+  list-style: none;
+}
+.footer-1 ul li a{
+  color: black;
+}
+.footer-1 ul li a:hover{
+  color: #4ac42c;
+}
+.footer-textarea{
+  border-color: #539e46;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 10px 0px 0px 10px;
+}
+.footer-button{
+   background-color: coral;
+   color: #ffffff;
+   border: none;
+   outline: none;
+   padding: 10px 10px;
+   position: relative;
+   top: 5px;
+   border-radius: 5px;
+ }
+ 
+ @media only screen and (max-width: 765px){
+   .footer-textarea{
+      width: 80%;
+   }
+ }
+ @media only screen and (min-width: 1024px){
+   .footer-textarea{
+      width: 100%;
+   }
+ }
+ 
+
+
